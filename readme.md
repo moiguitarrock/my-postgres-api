@@ -18,7 +18,7 @@ docker ps
 
 > it should show a list of the container running. **Get the PORTS column value**
 
-## Bacl to the root folder of this project
+## Back to the root folder of this project
 
 ```
 $ cd ../
@@ -66,4 +66,4 @@ This project takes me 5 hours to complete them
 
 ## What would you have done if time permitted?
 
-Complete the code coverage
+Complete the test coverage
