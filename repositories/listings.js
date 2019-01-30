@@ -4,7 +4,7 @@ const getListingsByUserId = async (userId, limit = 5) => {
   return knex
     .select(
       'listings.id',
-      'listings.created_at as "createdAt"',
+      'listings.created_at as createdAt',
       'listings.name',
       'listings.description'
     )

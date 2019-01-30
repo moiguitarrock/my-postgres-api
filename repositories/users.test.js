@@ -19,7 +19,7 @@ describe('Users Repository', () => {
         selectStub,
         'users.id',
         'users.name',
-        'users.created_at as "createdAt"'
+        'users.created_at as createdAt'
       );
       assert.calledWithExactly(fromStub, 'users');
       assert.calledWithExactly(whereStub, 'id', userId);

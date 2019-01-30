@@ -1,9 +1,9 @@
 beforeEach(async () => {
-  await db.seed.run();
+  // await db.seed.run();
 });
 
 afterAll(async () => {
-  await db.destroy();
+  // await db.destroy();
 });
 
 describe('User Controller', () => {

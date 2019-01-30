@@ -19,7 +19,7 @@ describe('Listings Repository', () => {
       assert.calledWithExactly(
         selectStub,
         'listings.id',
-        'listings.created_at as "createdAt"',
+        'listings.created_at as createdAt',
         'listings.name',
         'listings.description'
       );

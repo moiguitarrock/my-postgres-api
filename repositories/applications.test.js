@@ -19,8 +19,8 @@ describe('Application Repository', () => {
       assert.calledWithExactly(
         selectStub,
         'applications.id',
-        'applications.created_at as "createdAt"',
-        'applications.cover_letter as "coverLetter"',
+        'applications.created_at as createdAt',
+        'applications.cover_letter as coverLetter',
         rawStub(
           'to_json((SELECT data FROM (SELECT listings.id, listings.name, listings.description) data)) AS listing'
         )

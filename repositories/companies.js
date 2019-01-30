@@ -5,8 +5,8 @@ const getCompaniesByUserId = async (userId, limit = 5) => {
     .select(
       'companies.id',
       'companies.name',
-      'companies.created_at as "createdAt"',
-      'teams.contact_user as "isContact"'
+      'companies.created_at as createdAt',
+      'teams.contact_user as isContact'
     )
     .from('companies')
     .innerJoin('teams', 'teams.company_id', 'companies.id')

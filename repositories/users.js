@@ -28,7 +28,7 @@ const getTopActiveUsers = async (offset, limit) => {
 
 const getUserById = async userId => {
   return knex
-    .select('users.id', 'users.name', 'users.created_at as "createdAt"')
+    .select('users.id', 'users.name', 'users.created_at as createdAt')
     .from('users')
     .where('id', userId);
 };

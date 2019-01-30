@@ -20,8 +20,8 @@ describe('Companies Repository', () => {
         selectStub,
         'companies.id',
         'companies.name',
-        'companies.created_at as "createdAt"',
-        'teams.contact_user as "isContact"'
+        'companies.created_at as createdAt',
+        'teams.contact_user as isContact'
       );
       assert.calledWithExactly(fromStub, 'companies');
       assert.calledWithExactly(
