@@ -57,3 +57,13 @@ $ npm start
 
 - `/topActiveUsers?page={pageNumber)`
 - `/users?id={userId}`
+
+---
+
+## How long did it take you to finish it?
+
+This project takes me 5 hours to complete them
+
+## What would you have done if time permitted?
+
+Complete the code coverage
