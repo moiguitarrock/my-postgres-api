@@ -26,7 +26,7 @@ $ cd ../../
 
 ## Environment variables file
 
-Add to the root of the project a file called `.env`, and add the following variables:
+Edit the `.env` file located at the root of this project:
 
 `.env`
 
