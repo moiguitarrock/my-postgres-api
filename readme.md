@@ -5,7 +5,7 @@
 ### running the Dockerfile
 
 ```
-$ cd db/seeds
+$ cd db
 $ docker build -t eg_postgresql .
 $ docker run --rm -P --name pg_test eg_postgresql
 ```
@@ -21,7 +21,7 @@ docker ps
 ## Bacl to the root folder of this project
 
 ```
-$ cd ../../
+$ cd ../
 ```
 
 ## Environment variables file
